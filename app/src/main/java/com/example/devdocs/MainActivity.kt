@@ -22,9 +22,7 @@ class MainActivity : ComponentActivity() {
             DevDocsTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .verticalScroll(rememberScrollState()),
+                    modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState()),
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Column(
@@ -92,7 +90,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-    
+
     @Composable
     fun customRow(
         firstResourceID: Int,
@@ -105,20 +103,15 @@ class MainActivity : ComponentActivity() {
         Row(
             horizontalArrangement = Arrangement.spacedBy(10.dp)
         ) {
-            cardDesign(
-                painter = painterResource(id = firstResourceID),
+            cardDesign(painter = painterResource(id = firstResourceID),
                 contentDescription = firstName,
                 name = firstName,
-                modifier = Modifier
-                    .weight(1F),
-                onClick = { intentPass(id = firstIntentValue) }
-            )
-            cardDesign(
-                painter = painterResource(id = secondResourceID),
+                modifier = Modifier.weight(1F),
+                onClick = { intentPass(id = firstIntentValue) })
+            cardDesign(painter = painterResource(id = secondResourceID),
                 contentDescription = secondName,
                 name = secondName,
-                modifier = Modifier
-                    .weight(1f),
+                modifier = Modifier.weight(1f),
                 onClick = { intentPass(id = secondIntentValue) }
 
             )
