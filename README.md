@@ -1,4 +1,4 @@
-![Twitter](https://img.shields.io/twitter/follow/srZamanRai?label=Follow%20%7C%20Shahzaman&style=social)
+[![Twitter](https://img.shields.io/twitter/follow/srZamanRai?label=Follow%20%7C%20Shahzaman&style=social)](https://twitter.com/SrZamanRai)
 
 # Dev Docs
 Dev Docs Application by using kotlin, Jetpack Compose and dependencies developed by Shahzaman Rai.
