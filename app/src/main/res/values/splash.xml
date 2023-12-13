@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SplashScreen.Starting" parent="Theme.SplashScreen">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="windowSplashScreenBackground">#FFFBFE</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.DevDocs</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "533944234600",
+    "project_id": "dev-docs-6fb27",
+    "storage_bucket": "dev-docs-6fb27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533944234600:android:f92cf70115c5b3d62b41dd",
+        "android_client_info": {
+          "package_name": "com.shahzaman.devdocs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7wVrta779p9ugkitPiRGqb5UDAjW-kAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
