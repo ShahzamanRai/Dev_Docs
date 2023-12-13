@@ -2,8 +2,6 @@ package com.shahzaman.devdocs.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -21,21 +19,16 @@ fun DocsWebView(
     var isLoading by remember {
         mutableStateOf(true)
     }
-    Surface(
-        modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colorScheme.background
+    Box(
+        modifier = Modifier
+            .fillMaxSize(),
+        contentAlignment = Alignment.Center
     ) {
-        Box(
-            modifier = Modifier
-                .fillMaxSize(),
-            contentAlignment = Alignment.Center
-        ) {
-            WebView(
-                url = url,
-                callback = { value -> isLoading = value })
-            if (isLoading) {
-                LoadingAnimation()
-            }
+        WebView(
+            url = url,
+            callback = { value -> isLoading = value })
+        if (isLoading) {
+            LoadingAnimation()
         }
     }
 }

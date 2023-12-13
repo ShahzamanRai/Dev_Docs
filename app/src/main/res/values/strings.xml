@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Dev Docs</string>
+
+    //Settings
+    <string name="preference">Preference</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="system">System</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+
+    <string name="others">Others</string>
+
+    <string name="about">About</string>
+    <string name="about_description"><![CDATA[App info & build version]]></string>
+    <string name="app_version">Version 1.0</string>
+    <string name="app_copyright">Copyright © 2023 Dev Docs</string>
+    <string name="copyright_title">Copyright information</string>
+    <string name="copyright_description">Content in this app, including development documentation, belongs to respective owners.
+        We do not claim ownership. If you believe there\'s a copyright issue, contact us at srshahzaman444@gmail.com.
+        We\'ll promptly address and rectify any legitimate concerns to respect intellectual property rights.</string>
+    <string name="policy_title">Privacy Policy</string>
+    <string name="policy_description">App terms and policies</string>
+    <string name="cache_title">Clear Cache</string>
 </resources>

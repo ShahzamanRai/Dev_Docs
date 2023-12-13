@@ -4,7 +4,7 @@
 Empower your development journey with Dev Docs, an innovative application developed by Shahzaman Rai using Kotlin, Jetpack Compose, and a curated set of essential dependencies. 📚💻
 
 # Dive into Dev Docs
-📥 [Download Dev Docs](https://github.com/ShahzamanRai/Dev_Docs/releases/download/1.1/DevDocs1.1.apk) and access a wealth of developer documentation at your fingertips.
+📥 [Download Dev Docs](https://github.com/ShahzamanRai/Dev_Docs/releases/download/Release/DevDocs1.0.apk) and access a wealth of developer documentation at your fingertips.
 
 # Visualize the Experience
 Gain a glimpse of the Dev Docs experience through these screenshots:

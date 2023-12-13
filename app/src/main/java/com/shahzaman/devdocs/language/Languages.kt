@@ -9,6 +9,12 @@ sealed class Languages(val url: String, val title: String, val image: Int) {
         R.drawable.android
     )
 
+    object flutter : Languages(
+        "https://docs.flutter.dev/",
+        "Flutter",
+        R.drawable.flutter
+    )
+
     object arch : Languages(
         "https://wiki.archlinux.org/",
         "Arch Linux",
@@ -43,6 +49,24 @@ sealed class Languages(val url: String, val title: String, val image: Int) {
         "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         "JavaScript",
         R.drawable.javascript
+    )
+
+    object C : Languages(
+        "https://en.cppreference.com/w/c/language",
+        "C",
+        R.drawable.c
+    )
+
+    object C_plus : Languages(
+        "https://en.cppreference.com/w/cpp/language",
+        "C++",
+        R.drawable.c_plus
+    )
+
+    object C_Sharp : Languages(
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "C#",
+        R.drawable.c_sharp
     )
 
     object typeScript :
@@ -83,12 +107,11 @@ sealed class Languages(val url: String, val title: String, val image: Int) {
         R.drawable.material
     )
 
-    object tensorFlow :
-        Languages(
-            "https://www.tensorflow.org/lite/android",
-            "Tensorflow",
-            R.drawable.tensorflow
-        )
+    object tensorFlow : Languages(
+        "https://www.tensorflow.org/lite/android",
+        "Tensorflow",
+        R.drawable.tensorflow
+    )
 }
 
 val languageList = listOf(
@@ -98,6 +121,10 @@ val languageList = listOf(
     Languages.tensorFlow,
     Languages.kotlin,
     Languages.java,
+    Languages.C,
+    Languages.C_plus,
+    Languages.C_Sharp,
+    Languages.flutter,
     Languages.python,
     Languages.javaScript,
     Languages.typeScript,
